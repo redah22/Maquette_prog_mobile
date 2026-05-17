@@ -25,11 +25,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
     kotlinOptions {
-        jvmTarget = "17"
+        jvmTarget = "11"
     }
     buildFeatures {
         viewBinding = true
@@ -59,4 +59,12 @@ dependencies {
     // Retrofit (Network for Weather & Route generation APIs)
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    // Glide (Robust image loading)
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
+
+    // TravelPath Dependencies (OSMDroid)
+    implementation("org.osmdroid:osmdroid-android:6.1.18")
+    implementation("com.google.code.gson:gson:2.10.1")
 }

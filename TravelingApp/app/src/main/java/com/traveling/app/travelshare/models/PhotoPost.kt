@@ -19,5 +19,6 @@ data class PhotoPost(
 
 enum class ShareScope {
     PUBLIC,
-    PRIVATE_GROUP
+    PRIVATE_GROUP,
+    PRIVATE
 }

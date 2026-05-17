@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Thème principal de l'application (TravelShare - dark) -->
+    <style name="Theme.Traveling" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#7C4DFF</item>
+        <item name="colorPrimaryVariant">#512DA8</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#6C63FF</item>
+        <item name="colorSecondaryVariant">#4A43CC</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:statusBarColor">#7C4DFF</item>
+        <item name="android:navigationBarColor">#0F0F1A</item>
+    </style>
+
+    <!-- Thème TravelPath (violet + blanc) -->
+    <style name="Theme.TravelPath" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#7C4DFF</item>
+        <item name="colorPrimaryVariant">#512DA8</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#6C63FF</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:statusBarColor">#7C4DFF</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+    </style>
+</resources>

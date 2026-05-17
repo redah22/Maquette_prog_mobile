@@ -18,14 +18,16 @@ class HomeActivity : AppCompatActivity() {
             startActivity(Intent(this, LoginActivity::class.java))
         }
 
+        binding.btnHomeRegister.setOnClickListener {
+            startActivity(Intent(this, RegisterActivity::class.java))
+        }
+
         binding.cardTravelShare.setOnClickListener {
             val intent = Intent(this, FeedActivity::class.java)
             intent.putExtra("IS_ANONYMOUS", true)
             startActivity(intent)
         }
 
-        binding.cardTravelPath.setOnClickListener {
-            // Point de connexion pour la partie TravelPath du binôme
-        }
+
     }
 }
